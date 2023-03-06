@@ -8,7 +8,7 @@ export default function Header() {
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
         <h1 className="gradient__text">
-          Let's build something amazing with GPT-3 OpenAI.
+          Let's build something amazing with GPT-3 OpenAI
         </h1>
         <p>
           GPT-3 is a language processing model developed by OpenAI that
