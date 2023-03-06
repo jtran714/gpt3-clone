@@ -11,14 +11,12 @@ export default function Header() {
           Let's build something amazing with GPT-3 OpenAI
         </h1>
         <p>
-          GPT-3 is a language processing model developed by OpenAI that
-          generates human-like text using deep learning neural networks. With
-          175 billion parameters, it is the largest and most powerful language
-          model developed to date, capable of performing a wide range of natural
-          language processing tasks. GPT-3's ability to generate text that is
-          often indistinguishable from text written by a human has many
-          potential applications in fields such as customer service, content
-          generation, and language translation.
+          Lorem ipsum dolor sit amet. Cum corporis rerum et doloribus
+          perspiciatis ut sunt sunt aut architecto ipsum qui soluta aliquid! Quo
+          consequuntur sunt ex Quis quos hic ipsum velit et officiis nesciunt
+          est molestias dolores. 33 quasi voluptatibus sit ipsum aliquid et
+          doloremque maiores. In perspiciatis unde quo aspernatur explicabo aut
+          commodi porro aut consequatur quasi et voluptas quia et sunt autem.
         </p>
 
         <div className="gpt3__header-content__input">
@@ -35,4 +33,4 @@ export default function Header() {
       </div>
     </div>
   );
-};
+}
