@@ -19,5 +19,5 @@ export default function App() {
       <Blog />
       <Footer />
     </div>
-  )
-}
+  );
+};
