@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import people from "../../assets/people.png";
-import ai from "../../assets/ai.png";
+import ai_vid from "../../assets/ai_vid.mp4";
 
 export default function Header() {
   return (
@@ -29,8 +29,14 @@ export default function Header() {
         </div>
       </div>
       <div className="gpt3__header-image">
-        <img src={ai} />
+        <video
+          src={ai_vid}
+          muted
+          autoPlay={"autoplay"}
+          preLoad="auto"
+          loop
+        />
       </div>
     </div>
   );
-}
+};

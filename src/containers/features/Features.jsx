@@ -4,19 +4,19 @@ import Feature from "../../components/feature/Feature";
 
 const featuresData = [
   {
-    title: "Improving end distrusts instantly",
+    title: "Unlimited Possibilities",
     text: "Lorem ipsum dolor sit amet. Aut praesentium neque sit voluptatem ducimus non consequatur error. In soluta sint sed neque ratione eos explicabo blanditiis quo dolorem porro ut accusamus quia.",
   },
   {
-    title: "Become the tended active",
+    title: "Unbiased Language Model",
     text: "Lorem ipsum dolor sit amet. Rem velit adipisci non ipsam veritatis et exercitationem iure. Non modi veritatis sit similique ipsam et corporis magni.",
   },
   {
-    title: "Message or am nothing",
+    title: "Cutting Edge AI Tech",
     text: "Lorem ipsum dolor sit amet. Sit debitis accusamus est dolorum enim aut voluptatum explicabo in necessitatibus voluptates ut nesciunt perferendis.",
   },
   {
-    title: "Really boy law county",
+    title: "Future Plans",
     text: "Lorem ipsum dolor sit amet. Et tempore voluptates aut libero error et facilis galisum est dolores modi quo beatae harum sed repudiandae consectetur sed maiores dolores.",
   },
 ];

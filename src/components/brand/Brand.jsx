@@ -1,6 +1,6 @@
 import React from "react";
 import "./brand.css";
-import { google, slack, atlassian, dropbox, shopify } from "./imports";
+import { google, slack, atlassian, dropbox, shopify, hasbro } from "./imports";
 
 export default function Brand() {
   return (
@@ -19,6 +19,9 @@ export default function Brand() {
       </div>
       <div>
         <img src={shopify} />
+      </div>
+      <div>
+        <img src={hasbro} />
       </div>
     </div>
   );
