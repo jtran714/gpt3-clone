@@ -2,6 +2,21 @@ import React from "react";
 import "./whatGPT3.css";
 import Feature from "../../components/feature/Feature";
 
+const featureData = [
+  {
+    title: "Chatbots",
+    text: "Lorem ipsum dolor sit amet. Aut praesentium neque sit voluptatem ducimus non consequatur error. In soluta sint sed neque ratione eos explicabo blanditiis quo dolorem porro ut accusamus quia.",
+  },
+  {
+    title: "Knowledgebase",
+    text: "Lorem ipsum dolor sit amet. Rem velit adipisci non ipsam veritatis et exercitationem iure. Non modi veritatis sit similique ipsam et corporis magni.",
+  },
+  {
+    title: "Education",
+    text: "Lorem ipsum dolor sit amet. Sit debitis accusamus est dolorum enim aut voluptatum explicabo in necessitatibus voluptates ut nesciunt perferendis.",
+  },
+];
+
 export default function WhatGPT3() {
   return (
     <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
@@ -18,10 +33,14 @@ export default function WhatGPT3() {
         <p>Explore the Library</p>
       </div>
       <div className="gpt3__whatgpt3-container">
-        <Feature title="Chatbots" text="Lorem ipsum dolor sit amet. Et sint voluptates non Quis praesentium ut dignissimos quod est dolorem quos et aperiam voluptatem non accusamus beatae non similique quia. Ut cumque voluptatem quo obcaecati veniam qui numquam delectus." />
-        <Feature title="Knowledgebase" text="Lorem ipsum dolor sit amet. Ea autem repudiandae eum iusto explicabo vel incidunt atque. Sed distinctio nihil cum minus exercitationem vel cupiditate laboriosam ut blanditiis error sit tempora totam At voluptas asperiores et maxime nisi. Id laborum aspernatur sed animi ducimus rem saepe accusantium est atque aspernatur? Cum tempora consectetur et mollitia debitis id quam sint quo recusandae quibusdam?" />
-        <Feature title="Education" text="Lorem ipsum dolor sit amet. Id distinctio similique et dolores laudantium aut voluptatem voluptates sit laboriosam iste qui fugit sunt eos blanditiis aliquam. Non fuga nobis non libero quia in maxime eaque a quia aspernatur ut aliquam voluptas. Aut minima repudiandae ut labore fuga a minima consequatur? Quo quia necessitatibus eum ratione ipsam et rerum nobis aut provident expedita." />
+        {featureData.map((item, index) => (
+          <Feature
+            title={item.title}
+            text={item.text}
+            key={item.title + index}
+          />
+        ))};
       </div>
     </div>
   );
-}
+};
