@@ -22,7 +22,7 @@ export default function WhatGPT3() {
     <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
       <div className="gpt3__whatgpt3-feature">
         <Feature
-          title="What is GPT?"
+          title="What is OpenAI?"
           text="Lorem ipsum dolor sit amet. Ut atque porro sed veritatis aliquam ut fugiat voluptas sed quam velit. Qui molestiae repellendus id dignissimos sunt ab optio totam quo nesciunt nihil aut veritatis mollitia ea commodi quam. Et tempore doloribus aut magni porro ex natus tempore qui voluptatibus voluptatum in quia dolore ut iure dolores hic eveniet galisum. Et repellat velit aut nesciunt explicabo nam maiores iste est repudiandae expedita rem fuga consequatur et recusandae culpa."
         />
       </div>

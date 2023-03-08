@@ -17,10 +17,10 @@ export default function Navbar() {
             <a href="#home">Home</a>
           </p>
           <p>
-            <a href="#wgpt3">What is GPT?</a>
+            <a href="#wgpt3">What is OpenAI?</a>
           </p>
           <p>
-            <a href="#possibility">Open AI</a>
+            <a href="#possibility">Early Access</a>
           </p>
           <p>
             <a href="#features">Case Studies</a>
@@ -57,10 +57,10 @@ export default function Navbar() {
                 <a href="#home">Home</a>
               </p>
               <p>
-                <a href="#wgpt3">What is GPT?</a>
+                <a href="#wgpt3">What is OpenAI?</a>
               </p>
               <p>
-                <a href="#possibility">Open AI</a>
+                <a href="#possibility">Early Access</a>
               </p>
               <p>
                 <a href="#features">Case Studies</a>
