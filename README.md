@@ -1,5 +1,5 @@
 # Pure Frontend Project
-<img src="img/screenshot.png" />
+<img src="./screenshot.png" />
 
 ## Overview
 
