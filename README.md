@@ -1,2 +1,2 @@
-## will update the readme file for later .
-image.png
+## Landing Page
+<img src="./screenshot.png" />
