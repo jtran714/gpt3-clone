@@ -36,14 +36,14 @@ export default function Footer() {
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Get in touch</h4>
-          <p>123 Culver Dr, Irvine CA 92222</p>
-          <p>(714)443-1234</p>
+          <p>123 Culver Dr Irvine, CA 92222</p>
+          <p>(714)333-1234</p>
           <p>info@mfl.com</p>
         </div>
       </div>
 
       <div className="gpt3__footer-copyright">
-        <p>@2021 Middle Field Labs. All rights reserved.</p>
+        <p>@2023 Middle Field Labs. All rights reserved.</p>
       </div>
     </div>
   );
