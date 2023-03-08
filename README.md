@@ -15,4 +15,4 @@ npm start
 ```
 4. View the application on your own machine: localhost:3000/
 5. Good to go, enjoy
-
+6. App url coming soon
