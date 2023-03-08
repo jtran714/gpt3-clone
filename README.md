@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project is about a made up company website inspired by another tech company. To ensure viewing experience, this application can be viewed on mobile devices including tablets. 
+This project is about a made up company website inspired by another tech company. To ensure viewing experience, this application has media queries for ample responsiveness on ALL devices.
 
 ## Getting Started
 
