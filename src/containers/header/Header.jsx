@@ -33,7 +33,7 @@ export default function Header() {
           src={ai_vid}
           muted
           autoPlay={"autoplay"}
-          preLoad="auto"
+          preload="auto"
           loop
         />
       </div>
